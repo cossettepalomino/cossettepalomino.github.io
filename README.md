@@ -20,17 +20,20 @@ Professionally, I aim to help companies maximize the value of their data through
 ### Prediction Model for OilyGiant Oil Extraction Wel
 In this project, I developed a prediction model for OilyGiant, an oil extraction company, aimed at identifying the most profitable locations for new wells. The model leverages Machine Learning algorithms to analyze historical data, geological factors, and market trends to predict the optimal sites for oil extraction, ensuring maximum return on investment (ROI).
 [Project](https://github.com/cossettepalomino/ds_oilygiant )
+
 ![OilyGiant](/assets/img/image(3).png)
 
 ### Instacart Project: Grocery Delivery Platform Analysis
 Instacart is a grocery delivery platform where customers can place orders and have them delivered, similar to Uber Eats and DoorDash.
 In this project, **data wrangling** techniques are applied to the dataset, and we analyze customer purchasing behavior.
 [Project](https://github.com/cossettepalomino/ds_instacart)
+
 ![Instacart](/assets/img/image(4).png)
 
 ### Ice Online Store: Video Game Sales and Success Prediction
 Ice is an online store that sells video games worldwide. Using a historical dataset of game sales, user and expert reviews, genres, and other relevant features, we will analyze the data to determine the patterns that influence whether a game will be successful or not. Based on this analysis, we will make recommendations for the next year's marketing campaign.
 [Project](https://github.com/cossettepalomino/ds_ice_videogames)
+
 ![Ice Onlice Store](/assets/img/image(5).png)
 
 ## Skills 👩‍💻
