@@ -3,121 +3,139 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Data Scientist Portfolio</title>
+  <title>Cossette Palomino - Data Scientist</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <!-- Navbar -->
-  <header class="bg-white shadow sticky top-0 z-50">
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Navbar fijo -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Mi Portfolio</h1>
-      <ul class="flex space-x-6">
-        <li><a href="#about" class="hover:text-blue-500">Data Science</a></li>
-        <li><a href="#about" class="hover:text-blue-500">About me</a></li>
-        <li><a href="#education" class="hover:text-blue-500">Education</a></li>
-        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
-        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
-        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      <h1 class="text-2xl font-bold text-indigo-700">My Portfolio</h1>
+      <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="#about" class="hover:text-indigo-500 transition">About me</a></li>
+        <li><a href="#projects" class="hover:text-indigo-500 transition">Projects</a></li>
+        <li><a href="#education" class="hover:text-indigo-500 transition">Education</a></li>
+        <li><a href="#skills" class="hover:text-indigo-500 transition">Skills</a></li>        
+        <li><a href="#contact" class="hover:text-indigo-500 transition">Contact</a></li>
       </ul>
     </nav>
-  <section class="bg-gradient-to-b from-gray-50 to-white py-16 px-6 text-center">
-  <div class="max-w-3xl mx-auto">
-    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
-      Data Science isn’t the future — it’s the present.
-    </h1>
-    <p class="text-lg md:text-xl text-gray-600 mb-6">
-      In a world overloaded with information, the companies that turn data into decisions are the ones that lead.
-    </p>
-    <p class="text-lg md:text-xl text-gray-600">
-      From <span class="font-semibold text-indigo-600">Marketing</span> and <span class="font-semibold text-indigo-600">Sales</span> to <span class="font-semibold text-indigo-600">Logistics</span>, <span class="font-semibold text-indigo-600">Real Estate</span>, and <span class="font-semibold text-indigo-600">Energy</span>, Data Science uncovers patterns, predicts behavior, and optimizes strategy.
-    </p>
-    <p class="mt-8 text-xl font-medium text-gray-700">
-      Explore this portfolio to see how data can drive real impact across any industry.
-    </p>
-  </div>
-</section>
   </header>
-  <!-- Data Science -->
-  <section id="about" class="py-16 px-6 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Data Science</h2>
-      <p class="text-lg max-w-3xl"> </p>
+
+  <!-- Hero -->
+  <section class="relative bg-indigo-900 text-white py-16 px-6">
+    <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+    <div class="relative max-w-5xl mx-auto flex flex-col md:flex-row items-center z-10">
+      <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden flex-shrink-0 mb-6 md:mb-0 md:mr-8 border-4 border-white shadow-lg">
+        <img src="/assets/img/selfie.JPG" alt="Cossette Palomino" class="w-full h-full object-cover">
+      </div>
+      <div class="text-justify space-y-4 max-w-2xl">
+        <h1 class="text-3xl md:text-4xl font-bold leading-snug">Data Science isn’t the future — it’s the present.</h1>
+        <p>In a world overloaded with information, the companies that turn data into decisions are the ones that lead.</p>
+        <p>From <span class="font-semibold text-indigo-300">Marketing</span> and <span class="font-semibold text-indigo-300">Sales</span> to <span class="font-semibold text-indigo-300">Logistics</span>, <span class="font-semibold text-indigo-300">Real Estate</span>, and <span class="font-semibold text-indigo-300">Energy</span>, Data Science uncovers patterns, predicts behavior, and optimizes strategy.</p>
+        <p class="mt-4 font-medium">Explore this portfolio to see how data can drive real impact across any industry.</p>
+      </div>
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="py-16 px-6 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">About me</h2>
-      <p class="text-lg max-w-3xl">👋 Hi, I'm Cossette Palomino — a passionate Data Scientist driven by the power of transforming data into impactful decisions. I bring experience across diverse industries including IoT, Energy, Product Marketing, Logistics, and Asset Tracking. With a strong foundation in statistical analysis, machine learning, and data visualization, I specialize in uncovering insights that help companies grow smarter. My curiosity, adaptability, and problem-solving mindset allow me to thrive in dynamic environments and contribute meaningfully to any data-driven project.
-       ✨ I believe that behind every great decision, there’s a story — and I use data to tell it.</p>
+  <section id="about" class="py-16 px-8 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-indigo-800">About Me</h2>
+      <p class="text-lg text-justify leading-relaxed mb-4">👋 Hi, I'm Cossette Palomino — a passionate Data Scientist driven by the power of transforming data into impactful decisions. I bring experience across diverse industries including IoT, Energy, Product Marketing, Logistics, and Asset Tracking.</p>
+      <p class="text-lg text-justify leading-relaxed mb-4">With a strong foundation in statistical analysis, machine learning, and data visualization, I specialize in uncovering insights that help companies grow smarter. My curiosity, adaptability, and problem-solving mindset allow me to thrive in dynamic environments and contribute meaningfully to any data-driven project.</p>
+      <p class="text-lg text-justify leading-relaxed font-semibold text-indigo-700">✨ I believe that behind every great decision, there’s a story — and I use data to tell it.</p>
     </div>
   </section>
 
-  <!-- Education -->
-  <section id="education" class="py-16 px-6">
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-6 bg-gray-50">
     <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Education</h2>
-      <ul class="list-disc ml-6 text-lg">
-        <li>Data Science and Machine Learning: Making Data-Driven Decision | MIT IDSS (June 2025)</li>
-        <li>Data Science Bootcamp | TripleTen (October 2024)</li>
-        <li>Specialtiy Energy Efficiengy & Domotic | Universidad Panamericana (Aug 2016)</li>
-        <li>B.S.Energy Technologies Engineeering | Universidad Panamericana (Aug 2015)</li>
-      </ul>
+      <h2 class="text-3xl font-bold mb-4 text-indigo-800">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        
+        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+          <img src="/assets/img/image (4).png" alt="Grocery Delivery Analysis" class="w-full h-48 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-700">Grocery Delivery Platform Analysis</h3>
+          <p class="mb-3">Data wrangling & analysis on Instacart data. Explores user behavior and purchasing trends.</p>
+          <a href="https://github.com/cossettepalomino/ds_oilygiant" class="text-indigo-600 font-medium hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+          <img src="assets/img/image (5).png" alt="Grocery Delivery Analysis" class="w-full h-48 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-700">Customer Personality Segmentation</h3>
+          <p class="mb-3">Segmentation based on purchasing behavior & demographics to optimize targeted marketing.</p>
+          <a href="https://github.com/cossettepalomino/Customer_Personality_Segmentation" class="text-indigo-600 font-medium hover:underline">View on GitHub</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Skills -->
   <section id="skills" class="py-16 px-6 bg-white">
     <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Skills</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="bg-gray-100 p-4 rounded shadow">Python</div>
-        <div class="bg-gray-100 p-4 rounded shadow">SQL</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Pandas</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Scikit-learn</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Tableau</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Power BI</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Machine Learning</div>
-        <div class="bg-gray-100 p-4 rounded shadow">Visualización</div>
+      <h2 class="text-3xl font-bold mb-6 text-indigo-800">Skills</h2>
+      <div class="flex flex-wrap justify-start gap-4">
+        <!-- Tech -->
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Python</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">SQL</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Power BI</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Pandas</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Scikit-learn</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Machine Learning</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Deep Learning</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Numpy</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Git</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">AWS</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Salesforce</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Hubspot</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Google Analytics</div>
+        <div class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 rounded-xl p-3 shadow-sm font-medium">Visualization</div>  
+                
+        <!-- Soft skills -->
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Critical Thinking</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Leadership</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Communication</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Decision Making</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Self Learner</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Cultural Competence</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Out of the Box creativity</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Detailed&Results-Oriented</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Data-Interpretation</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Cultural Competence</div>
+        <div class="bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-xl p-3 shadow-sm font-medium">Independent</div>
       </div>
     </div>
   </section>
 
-  <!-- Proyectos -->
-  <section id="projects" class="py-16 px-6">
+  <!-- Education -->
+  <section id="education" class="py-16 px-6 bg-gray-50">
     <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Proyectos</h2>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-xl font-semibold">Análisis de Clientes</h3>
-          <p class="mt-2">Clustering de clientes usando K-means para segmentación de mercado.</p>
-          <a href="#" class="text-blue-500 underline mt-2 inline-block">Ver en GitHub</a>
-        </div>
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-xl font-semibold">Predicción de Ventas</h3>
-          <p class="mt-2">Modelo de regresión para predecir ventas futuras con datos históricos.</p>
-          <a href="#" class="text-blue-500 underline mt-2 inline-block">Ver en GitHub</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contact" class="py-16 px-6 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Contacto</h2>
-      <p class="text-lg">Puedes contactarme por:</p>
-      <ul class="mt-4 space-y-2 text-lg">
-        <li>Email: <a href="mailto:tuemail@example.com" class="text-blue-500 underline">tuemail@example.com</a></li>
-        <li>LinkedIn: <a href="#" class="text-blue-500 underline">linkedin.com/in/tuperfil</a></li>
-        <li>GitHub: <a href="#" class="text-blue-500 underline">github.com/tuusuario</a></li>
+      <h2 class="text-3xl font-bold mb-4 text-indigo-800">Education</h2>
+      <ul class="list-disc ml-6 text-lg space-y-2">
+        <li><span class="font-bold">MIT - Data Science & ML</span> | June 2025</li>
+        <li><span class="font-bold">TripleTen - Data Science Bootcamp</span> | Oct 2024</li>
+        <li><span class="font-bold">Universidad Panamericana - Specialty Energy Efficiency & Domotics</span> | Aug 2016</li>
+        <li><span class="font-bold">Universidad Panamericana - B.S. Energy Tech Engineering </span>| Aug 2015</li>
       </ul>
     </div>
   </section>
 
-  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
-    &copy; 2025 Tu Nombre. Todos los derechos reservados.
+  
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-indigo-800">Contact</h2>
+      <p class="text-lg">Let’s connect:</p>
+      <ul class="mt-4 space-y-2 text-lg">
+        <li>Email: <a href="mailto:ingcossette.palomino@gmail.com" class="text-indigo-600 underline">ingcossette.palomino@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/cossette-palomino/" class="text-indigo-600 underline">linkedin.com/in/cossette-palomino</a></li>
+        <li>GitHub: <a href="https://github.com/cossettepalomino" class="text-indigo-600 underline">github.com/cossettepalomino</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="bg-indigo-900 text-white text-center py-6 mt-10">
+    &copy; 2025 Cossette Palomino. All rights reserved.
   </footer>
 </body>
 </html>
